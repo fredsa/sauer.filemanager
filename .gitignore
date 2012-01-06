@@ -1,0 +1,9 @@
+/war/WEB-INF/classes/
+
+/war/WEB-INF/lib/gwt-servlet.jar
+
+/war/WEB-INF/lib/appengine-api-1.0-sdk-*.jar
+/war/WEB-INF/lib/appengine-api-labs-*.jar
+/war/WEB-INF/lib/appengine-jsr107cache-*.jar
+/war/WEB-INF/lib/google_sql.jar
+/war/WEB-INF/lib/jsr107cache-1.1.jar

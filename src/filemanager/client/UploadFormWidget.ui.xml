@@ -1,0 +1,26 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+  xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:f="urn:import:filemanager.client">
+  <ui:style>
+    .hide {
+      xvisibility: hidden;
+      xwidth: 0px;
+      xheight: 0px;
+    }
+  </ui:style>
+  <g:HTMLPanel>
+
+    <form ui:field="form">
+      <g:HTMLPanel>
+        <f:WebkitFileUpload ui:field="fileUpload"
+          styleName="{style.hide}" />
+        <g:Button ui:field="selectButton">Select some files</g:Button>
+      </g:HTMLPanel>
+    </form>
+
+    <g:HTML ui:field="statusHTML" />
+    
+    <g:HTMLPanel ui:field="loggerContainer" />
+    
+  </g:HTMLPanel>
+</ui:UiBinder> 

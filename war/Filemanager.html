@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link type="text/css" rel="stylesheet" href="Filemanager.css">
+    <title>filemanager</title>
+    <script type="text/javascript" language="javascript" src="filemanager/filemanager.nocache.js"></script>
+  </head>
+
+  <body>
+
+
+
+    <iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1' style="position:absolute;width:0;height:0;border:0"></iframe>
+    
+    <noscript>
+      <div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+        Your web browser must have JavaScript enabled
+        in order for this application to display correctly.
+      </div>
+    </noscript>
+
+  <!--
+
+<style>
+.hide {
+visibility: hidden;
+width: 0px;
+height: 0px;
+</style>
+<form action="/" method="post" id="myform">
+comment: <input name="comment"/><br/>
+<input mutiple NOTwebkitdirectory type="file" class="hide" id="filebutton" onchange="gotit()"/>
+<input type="button" onclick="clickit()" value="Select some files"/>
+<input type="submit"/>
+</form>
+<script>
+function clickit() {
+  var b = document.getElementById('filebutton');
+  b.click();
+}
+function gotit(evt) {
+  document.forms["myform"].submit();
+}
+</script>
+
+<hr>
+
+
+<div id="dropbox" style="border: 1px solid blue; width: 10em; height: 10em; background-color: green;"><span id="droplabel">Drop file here...</span></div>
+<img id="preview" alt="[ preview will display here ]" style="border: 1px solid red; width: 10em; height: 10em; background-color: yellow;" />
+
+<script>
+var dropbox = document.getElementById("dropbox")
+ 
+function dragEnter(evt) {
+  evt.stopPropagation();
+  evt.preventDefault();
+}
+
+function dragExit(evt) {
+  evt.stopPropagation();
+  evt.preventDefault();
+}
+
+function dragOver(evt) {
+  evt.stopPropagation();
+  evt.preventDefault();
+}
+
+function drop(evt) {
+  evt.stopPropagation();
+  evt.preventDefault();
+   
+  var files = evt.dataTransfer.files;
+  var count = files.length;
+   
+  // Only call the handler if 1 or more files was dropped.
+  if (count > 0)  {
+//    handleFiles(files);
+    for(var i = 0; i < files.length; i++) {
+      dropbox.innerHTML += "{file=" + files[i].name + "}<br/>";
+    }
+  }
+}
+
+function handleFiles(files) {
+  var file = files[0];
+   
+  document.getElementById("droplabel").innerHTML = "Processing " + file.name;
+   
+  var reader = new FileReader();
+   
+  // init the reader event handlers
+  reader.onloadend = handleReaderLoadEnd;
+   
+  // begin the read operation
+  reader.readAsDataURL(file);
+}
+
+function handleReaderLoadEnd(evt) {
+  var img = document.getElementById("preview");
+  img.src = evt.target.result;
+}
+
+
+// init event handlers
+dropbox.addEventListener("dragenter", dragEnter, false);
+dropbox.addEventListener("dragexit", dragExit, false);
+dropbox.addEventListener("dragover", dragOver, false);
+dropbox.addEventListener("drop", drop, false);
+dropbox.innerHTML += "<BR>READY!!!!!!!!!!!!!!";
+</script>
+ 
+ <hr>
+ 
+ -->
+ 
+  </body>
+</html>

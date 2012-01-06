@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='filemanager'>
+  <inherits name='com.google.gwt.user.User' />
+
+  <inherits name='com.google.gwt.user.theme.standard.Standard' />
+  <!-- <inherits name='com.google.gwt.user.theme.chrome.Chrome'/> -->
+  <!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/> -->
+
+  <!-- Other module inherits -->
+  <inherits name="com.allen_sauer.gwt.log.gwt-log-DEBUG" />
+
+  <entry-point class='filemanager.client.FilemanagerEntryPoint' />
+
+  <source path='client' />
+  <source path='shared' />
+
+</module>
