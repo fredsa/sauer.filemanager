@@ -3,7 +3,7 @@
 set -e
 
 GET_UPLOAD_URL="/get-upload-url"
-DEFAULT_URL=http://assets.fredsa.appspot.com/
+DEFAULT_URL=http://assets.fredsa-filemanager.appspot.com/
 
 
 curlflags=""
