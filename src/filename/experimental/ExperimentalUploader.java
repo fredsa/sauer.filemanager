@@ -1,5 +1,6 @@
 package filename.experimental;
-import com.google.appengine.repackaged.com.google.common.io.ByteStreams;
+
+import com.google.common.io.ByteStreams;
 
 import filemanager.shared.FileManagerConstants;
 
